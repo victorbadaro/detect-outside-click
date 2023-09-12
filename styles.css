@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#box1 {
+  display: grid;
+  place-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+}
