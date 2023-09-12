@@ -1,16 +1,17 @@
 const box1 = document.getElementById('box1');
+const message = document.querySelector('p');
 
 document.addEventListener('click', function (event) {
   let clickedElement = event.target;
 
   do {
     if (clickedElement === box1) {
-      console.log('inside');
+      message.innerText = 'inside';
       return;
     }
 
     clickedElement = clickedElement.parentNode;
   } while (clickedElement)
 
-  console.log('outside');
+  message.innerText = 'outside';
 });
